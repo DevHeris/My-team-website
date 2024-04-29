@@ -1,0 +1,26 @@
+.buildManage {
+  background-color: var(--green-dark);
+  padding: 8em;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.buildManage > div {
+  display: grid;
+  grid-gap: 2em;
+  align-items: baseline;
+  grid-template-columns: 1fr 1fr;
+}
+
+.buildManage h3 {
+  margin-top: 1em;
+  font-size: var(--fs-h2-48);
+  line-height: 1;
+  color: var(--white);
+}
+
+.buildManage > img {
+  position: absolute;
+  bottom: 0;
+  right: -8%;
+}

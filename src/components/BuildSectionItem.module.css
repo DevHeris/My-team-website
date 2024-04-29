@@ -1,0 +1,26 @@
+.item {
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: 0.2fr 1fr;
+  margin-bottom: 1.5em;
+}
+
+.item img {
+  grid-column: 1/2;
+}
+
+.item > div {
+  grid-column: 2/3;
+}
+
+.item h4 {
+  color: var(--light-coral);
+  padding-bottom: 0.7em;
+  font-size: var(--fs-body-18);
+}
+
+.item p {
+  color: var(--white);
+  font-size: var(--fs-body-15);
+  font-weight: 600;
+}
