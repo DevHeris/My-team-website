@@ -7,7 +7,7 @@ function Hero() {
         <h1>
           Find the best <span>talent</span>
         </h1>
-        <p>
+        <div>
           <div>
             <img src="/images/green-border.svg" alt="green border img" />
           </div>
@@ -16,7 +16,7 @@ function Hero() {
             hard. Most companies aren&apos;t tapping into the abundance of
             global talent. We&apos;re about to change that.
           </div>
-        </p>
+        </div>
       </div>
     </section>
   );

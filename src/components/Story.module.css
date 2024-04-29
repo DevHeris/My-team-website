@@ -1,0 +1,37 @@
+.story {
+  background-image: url(/images/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5em;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.storyText {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.person {
+  margin-top: 1em;
+  color: var(--blue-rapture);
+  font-weight: 700;
+}
+
+.company {
+  color: var(--white);
+  font-size: 0.9em;
+}
+
+.story img {
+  margin-top: 1em;
+  border: 2px solid var(--blue-rapture);
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+  aspect-ratio: 1;
+}

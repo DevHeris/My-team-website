@@ -1,0 +1,26 @@
+.stories {
+  height: 90vh;
+  background-color: var(--green-jungle);
+  padding: 8em 6em;
+
+  background-image: url(/images/bg-pattern-home-4-about-3.svg),
+    url(/public/images/bg-pattern-home-5.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+.stories h4 {
+  font-size: var(--fs-h2-48);
+  color: var(--white);
+  text-align: center;
+  padding: 0 1.2em;
+}
+
+.stories h4 span {
+  color: var(--blue-rapture);
+}
+
+.stories > div {
+  display: flex;
+  gap: 1em;
+}

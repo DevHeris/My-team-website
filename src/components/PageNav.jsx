@@ -15,7 +15,7 @@ function PageNav() {
           <NavLink to="/about">about</NavLink>
         </li>
       </ul>
-      <ContactBtn />
+      <ContactBtn color="#ffffff" />
     </nav>
   );
 }

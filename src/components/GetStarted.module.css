@@ -1,0 +1,18 @@
+.getStarted {
+  background-color: var(--light-coral);
+  background-image: url(/public/images/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding: 4em 13em;
+}
+
+.getStarted div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.getStarted h3 {
+  color: var(--green-dark);
+  font-size: var(--fs-h2-48);
+}

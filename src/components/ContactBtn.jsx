@@ -1,9 +1,13 @@
 import { NavLink } from "react-router-dom";
 import styles from "./ContactBtn.module.css";
 
-function ContactBtn() {
+function ContactBtn({ color }) {
   return (
-    <NavLink className={styles.btn} to="contact">
+    <NavLink
+      className={styles.btn}
+      to="contact"
+      style={{ color, border: `2px solid ${color}` }}
+    >
       contact us
     </NavLink>
   );
