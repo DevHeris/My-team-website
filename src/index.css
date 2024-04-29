@@ -61,7 +61,7 @@ body {
   background-color: var(--green-midnight);
 }
 
-.hero {
-  background-color: var(--green-midnight);
-  height: 100vh;
+.container {
+  max-width: 65em;
+  margin-inline: auto;
 }

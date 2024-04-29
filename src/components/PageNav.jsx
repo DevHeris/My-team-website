@@ -5,7 +5,7 @@ import ContactBtn from "./ContactBtn";
 
 function PageNav() {
   return (
-    <nav className={styles.nav}>
+    <nav className={`${styles.nav} container`}>
       <Logo />
       <ul>
         <li>

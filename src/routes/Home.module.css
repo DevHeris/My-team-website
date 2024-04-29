@@ -1,0 +1,49 @@
+.hero {
+  padding: 2em 0 13em 0;
+  margin-right: 6em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-image: url(/images/bg-pattern-home-2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.hero > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5em;
+}
+
+.hero img {
+  transform: translateX(-50%);
+}
+
+.hero h1 {
+  font-size: var(--fs-h1-100);
+  line-height: 1;
+  color: var(--white);
+  align-self: center;
+}
+
+.hero h1 span {
+  color: var(--light-coral);
+}
+
+.hero p {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  flex-direction: column;
+  color: var(--white);
+  font-size: var(--fs-body-18);
+  font-weight: var(--fw-body-18);
+  line-height: 1.5;
+  margin-left: 2em;
+}
+
+.hero p img {
+  transform: translateX(1%);
+}
