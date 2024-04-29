@@ -1,0 +1,30 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 0.5fr;
+  grid-gap: 1em;
+  padding: 3.5em 6em;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2em;
+  grid-column: 2/3;
+}
+
+.nav a:link,
+.nav a:visited {
+  color: var(--white);
+  font-weight: bold;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--light-coral);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--light-coral);
+  color: var(--white);
+}
