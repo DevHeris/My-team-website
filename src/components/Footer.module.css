@@ -1,0 +1,80 @@
+.footer {
+  background-color: var(--green-dark);
+  padding: 2.4em 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.address {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
+.address span {
+  color: rgba(255, 255, 255, 0.685);
+}
+
+.left {
+  display: flex;
+  align-items: flex-end;
+  gap: 5em;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  gap: 2em;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.nav a:link,
+.nav a:visited {
+  color: var(--white);
+  font-weight: bold;
+}
+
+/* CSS Modules feature */
+.nav a:global(.active) {
+  color: var(--light-coral);
+}
+
+a.ctaLink:link,
+a.ctaLink:visited {
+  background-color: var(--light-coral);
+  color: var(--white);
+}
+
+.socialLinksAndCopyrights {
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.socialLinks li {
+  margin-inline-end: 1em;
+}
+
+.copyrights {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+}

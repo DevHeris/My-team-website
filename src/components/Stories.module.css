@@ -1,5 +1,4 @@
 .stories {
-  height: 90vh;
   background-color: var(--green-jungle);
   padding: 8em 6em;
 
@@ -20,7 +19,7 @@
   color: var(--blue-rapture);
 }
 
-.stories > div {
+.stories > div > div {
   display: flex;
   gap: 1em;
 }
