@@ -1,7 +1,7 @@
 import Hero from "../components/Home/Hero";
 import Stories from "../components/Home/Stories";
 import BuildManage from "../components/Home/BuildManage";
-import GetStarted from "../components/Home/GetStarted";
+import GetStarted from "../components/GetStarted";
 import Footer from "../components/Footer";
 function Home() {
   return (

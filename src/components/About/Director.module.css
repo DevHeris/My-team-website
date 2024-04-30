@@ -8,6 +8,7 @@
   height: 15em;
   position: relative;
   cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
 
 .card > div {
@@ -18,10 +19,9 @@
   opacity: 1;
 }
 
-div.toggled {
-  opacity: 0.8;
+.isActive {
+  background-color: var(--green-dark);
 }
-
 .card p {
   text-align: center;
 }

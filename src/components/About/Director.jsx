@@ -5,7 +5,7 @@ function Director({ imgSrc, role, name, words }) {
   const [isToggled, setIsToggled] = useState(null);
   return (
     <div
-      className={styles.card}
+      className={`${styles.card} ${isToggled && styles.isActive}`}
       onClick={() => setIsToggled((isToggled) => !isToggled)}
     >
       {!isToggled ? (
@@ -17,7 +17,7 @@ function Director({ imgSrc, role, name, words }) {
           </p>
         </div>
       ) : (
-        <div className={styles.toggled}>
+        <div>
           <h3>{name}</h3>
           <span>{words}</span>
           <div className={styles.socialMedia}>

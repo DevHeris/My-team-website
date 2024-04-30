@@ -1,5 +1,5 @@
 import styles from "./GetStarted.module.css";
-import ContactBtn from "./ContactBtn";
+import ContactBtn from "./Home/ContactBtn";
 function GetStarted() {
   return (
     <section className={styles.getStarted}>
