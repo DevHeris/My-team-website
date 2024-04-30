@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import { useEffect } from "react";
 function About() {
   useEffect(() => {
-    document.title = "About || My Team";
+    document.title = "About | My Team";
 
     return () => {
       document.title = "My Team";

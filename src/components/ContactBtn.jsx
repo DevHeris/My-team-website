@@ -5,7 +5,7 @@ function ContactBtn({ color }) {
   return (
     <NavLink
       className={styles.btn}
-      to="contact"
+      to="/contact"
       style={{ color, border: `2px solid ${color}` }}
     >
       contact us

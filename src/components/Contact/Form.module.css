@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  max-width: 100%;
+  background-color: transparent;
+  border: none;
+  color: var(--light-coral);
+  font-weight: 600;
+  padding: 1.5em 0.3em;
+  border-bottom: 1px solid var(--white);
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: 0;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: var(--white);
+}
+
+.form button {
+  padding: 0.8em 2.5em;
+  margin-top: 1.5em;
+  color: var(--green-dark);
+  font-weight: 700;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.form button:hover {
+  color: var(--white);
+  background-color: var(--blue-rapture);
+}

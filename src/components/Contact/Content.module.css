@@ -1,0 +1,25 @@
+.content {
+  padding: 3em;
+  background-image: url(/images/bg-pattern-about-2-contact-1.svg),
+    url(/images/bg-pattern-contact-2.svg);
+  background-position: top 0 left -9%, bottom 0 right -9%;
+  background-repeat: no-repeat;
+}
+
+.content div {
+  display: flex;
+  gap: 6em;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.content h2 {
+  font-size: var(--fs-h1-100);
+  color: var(--white);
+}
+
+.content h5 {
+  font-size: 2.5em;
+  color: var(--light-coral);
+  margin-bottom: 0.8em;
+}

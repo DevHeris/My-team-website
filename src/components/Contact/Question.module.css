@@ -1,0 +1,10 @@
+.question {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+}
+
+.question p {
+  color: var(--white);
+  font-weight: 600;
+}
