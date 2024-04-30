@@ -1,18 +1,16 @@
 .hero {
   padding: 2em 0 13em 0;
-  margin-right: 6em;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  background-image: url(/images/bg-pattern-home-2.svg);
+  background-image: url(/images/bg-pattern-about-1-mobile-nav-1.svg);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom 0% right -9%;
 }
 
 .hero > div {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3.5em;
+  grid-template-columns: 0.6fr 1fr;
 }
 
 .hero img {
@@ -24,10 +22,6 @@
   line-height: 1;
   color: var(--white);
   align-self: center;
-}
-
-.hero h1 span {
-  color: var(--light-coral);
 }
 
 .hero > div > div {

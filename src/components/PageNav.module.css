@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr 2fr 0.5fr;
   grid-gap: 4em;
-  padding: 3.5em 0 3.5em 4.5em;
+  padding: 3.5em 0;
   justify-content: space-between;
   align-items: center;
   background-color: var(--green-midnight);

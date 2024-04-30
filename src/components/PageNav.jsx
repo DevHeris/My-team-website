@@ -1,7 +1,7 @@
 import styles from "./PageNav.module.css";
 import Logo from "./Logo";
 import { NavLink } from "react-router-dom";
-import ContactBtn from "./ContactBtn";
+import ContactBtn from "./Home/ContactBtn";
 
 function PageNav() {
   return (

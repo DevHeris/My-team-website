@@ -1,5 +1,12 @@
+import Hero from "../components/About/Hero";
+import Directors from "../components/About/Directors";
 function About() {
-  return <h3>about</h3>;
+  return (
+    <>
+      <Hero />
+      <Directors />
+    </>
+  );
 }
 
 export default About;

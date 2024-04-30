@@ -2,7 +2,6 @@ import styles from "./Hero.module.css";
 function Hero() {
   return (
     <section className={styles.hero}>
-      <img src="/images/bg-pattern-home-1.svg" alt="background pattern image" />
       <div className="container">
         <h1>
           Find the best <span>talent</span>

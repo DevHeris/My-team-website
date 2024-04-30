@@ -1,0 +1,72 @@
+.card {
+  background-color: var(--green-sacramento);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 2em 3.5em 2em;
+  width: 21em;
+  height: 15em;
+  position: relative;
+  cursor: pointer;
+}
+
+.card > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-in;
+  opacity: 1;
+}
+
+div.toggled {
+  opacity: 0.8;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card .avatar {
+  border: 2px solid var(--blue-rapture);
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+  aspect-ratio: 1;
+}
+
+.card h3 {
+  margin: 0.4em 0;
+  font-size: var(--fs-h3-18);
+  color: var(--blue-rapture);
+}
+
+.card p {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 0.85em;
+}
+.card span {
+  text-align: center;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 0.85em;
+  margin-bottom: 1em;
+  line-height: 2;
+}
+
+.card .toggle {
+  position: absolute;
+  bottom: -11%;
+  background-color: var(--light-coral);
+  padding: 1em;
+  border-radius: 50%;
+}
+
+.card .toggle:hover {
+  background-color: var(--blue-rapture);
+}
+
+.socialMedia ul {
+  display: flex;
+  gap: 0.5em;
+}
