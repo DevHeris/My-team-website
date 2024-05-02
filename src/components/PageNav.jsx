@@ -43,7 +43,7 @@ function PageNav() {
         </li>
       </ul>
 
-      <ul>
+      <ul className={styles.normalUl}>
         <div>
           <li>
             <Logo />
@@ -65,7 +65,7 @@ function PageNav() {
 
         <li className={styles.menuButton} onClick={showSidebar}>
           <a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="17">
               <g fill="#fff" fillRule="evenodd">
                 <path d="M0 0h20v3H0zM0 7h20v3H0zM0 14h20v3H0z" />
               </g>

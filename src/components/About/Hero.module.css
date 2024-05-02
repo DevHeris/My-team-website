@@ -48,12 +48,16 @@
     padding: 0;
     padding-bottom: 8em;
     background-position: bottom -50% right -60%;
+    text-align: center;
   }
 
   .hero > div {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+  .hero > div > div {
+    margin-left: 0;
   }
 
   .border {
