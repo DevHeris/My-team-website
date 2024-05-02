@@ -42,6 +42,14 @@
   font-family: var(--font-family);
 }
 
+.sr-only {
+  display: none;
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
 img {
   display: block;
   height: auto;
@@ -61,6 +69,17 @@ body {
 }
 
 .container {
-  max-width: 65em;
+  --max-width: 65em;
+  --container-padding: 1rem;
+
+  width: min(var(--max-width), 100% - (var(--container-padding) * 1));
   margin-inline: auto;
+}
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-burger-bars-hover {
+  background: #a90000;
 }

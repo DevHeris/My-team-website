@@ -49,3 +49,32 @@
 .hero > div > div img {
   transform: translateX(1%);
 }
+
+@media screen and (max-width: 800px) {
+  .hero {
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/bg-pattern-home-2.svg);
+    padding-bottom: 11em;
+    text-align: center;
+  }
+
+  .hero > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .hero h1 {
+    font-size: 3.8em;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .hero > div > div {
+    padding: 0;
+    margin: 0;
+  }
+}

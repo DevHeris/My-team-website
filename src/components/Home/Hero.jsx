@@ -8,7 +8,11 @@ function Hero() {
         </h1>
         <div>
           <div>
-            <img src="/images/green-border.svg" alt="green border img" />
+            <img
+              className={styles.border}
+              src="/images/green-border.svg"
+              alt="green border img"
+            />
           </div>
           <div>
             Finding the right people and building high performing teams can be

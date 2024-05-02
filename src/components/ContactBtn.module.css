@@ -1,8 +1,10 @@
 .btn {
-  padding: 0.5em 1.5em;
+  padding: 0 1.5em;
   font-weight: 700;
   border: 2px solid var(--white);
   border-radius: 1.4em;
   grid-column: 6/7;
   transition: all 0.3s ease-in-out;
+  font-size: 0.8em;
+  text-align: center;
 }
