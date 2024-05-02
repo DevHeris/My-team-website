@@ -67,8 +67,7 @@
 
 .sidebar {
   padding-top: 1em;
-  padding-left: 1em;
-  padding-right: 5em;
+  padding-inline: 1em;
   position: fixed;
   top: 0;
   right: 0;
