@@ -68,7 +68,7 @@
 .sidebar {
   padding-top: 1em;
   padding-left: 1em;
-  padding-right: 6em;
+  padding-right: 5em;
   position: fixed;
   top: 0;
   right: 0;
@@ -83,6 +83,10 @@
 
   background-color: #2c6269;
   backdrop-filter: blur(10px);
+}
+
+.sidebar li:nth-child(2) {
+  display: none;
 }
 
 .sidebar li:first-child {
