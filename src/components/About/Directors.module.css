@@ -27,3 +27,17 @@
   row-gap: 4em;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 800px) {
+  .directorsSection {
+    padding: 0;
+    padding: 6.5em 0;
+    padding-bottom: 8em;
+    text-align: center;
+    background-position: top -5.5% left -60%, bottom 0 right -20%;
+  }
+
+  .directorsSection h2 {
+    font-size: 2em;
+  }
+}

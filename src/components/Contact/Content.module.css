@@ -23,3 +23,19 @@
   color: var(--light-coral);
   margin-bottom: 0.8em;
 }
+
+@media screen and (max-width: 800px) {
+  .content {
+    padding: 0;
+    padding-bottom: 5em;
+
+    text-align: center;
+    background-image: url(/images/bg-pattern-contact-2.svg);
+    background-position: bottom -20% right -50%;
+  }
+
+  .content div {
+    flex-direction: column;
+    gap: 1em;
+  }
+}

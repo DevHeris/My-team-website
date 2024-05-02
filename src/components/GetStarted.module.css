@@ -21,12 +21,14 @@
   .getStarted {
     padding: 4em 1.5em;
     text-align: center;
-    background-position: bottom -30% left 0;
+    background-position: bottom -35% left 0;
   }
+
   .getStarted > div {
     flex-direction: column;
-    gap: 0.5em;
+    gap: 1em;
   }
+
   .getStarted h3 {
     font-size: 2em;
   }
