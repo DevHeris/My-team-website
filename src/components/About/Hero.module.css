@@ -41,3 +41,27 @@
 .hero > div > div img {
   transform: translateX(1%);
 }
+
+@media screen and (max-width: 800px) {
+  .hero {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8em;
+    background-position: bottom -50% right -60%;
+  }
+
+  .hero > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .border {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 3.8em;
+    padding-bottom: 0.5em;
+  }
+}

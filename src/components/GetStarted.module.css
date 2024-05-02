@@ -25,6 +25,7 @@
   }
   .getStarted > div {
     flex-direction: column;
+    gap: 0.5em;
   }
   .getStarted h3 {
     font-size: 2em;

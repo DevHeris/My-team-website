@@ -42,14 +42,6 @@
   font-family: var(--font-family);
 }
 
-.sr-only {
-  display: none;
-}
-
-.mobile-nav-toggle {
-  display: none;
-}
-
 img {
   display: block;
   height: auto;

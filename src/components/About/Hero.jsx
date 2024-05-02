@@ -5,7 +5,7 @@ function Hero() {
       <div className="container">
         <h1>About</h1>
         <div>
-          <div>
+          <div className={styles.border}>
             <img src="/images/red-border.svg" alt="green border img" />
           </div>
           <div>
