@@ -89,10 +89,6 @@
   display: none;
 }
 
-.sidebar li:first-child {
-  width: 40%;
-}
-
 .sidebar a:nth-child(3) {
   display: none;
 }
