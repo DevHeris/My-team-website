@@ -5,7 +5,11 @@ function BuildManage() {
     <section className={styles.buildManage}>
       <div className="container">
         <div className="left">
-          <img src="/images/red-border.svg" alt="red border" />
+          <img
+            className={styles.border}
+            src="/images/red-border.svg"
+            alt="red border"
+          />
           <h3>Build & manage distributed teams like no one else.</h3>
         </div>
         <div className="right">
@@ -27,7 +31,6 @@ Easy to Implement"
           />
         </div>
       </div>
-      <img src="/images/bg-pattern-home-3.svg" alt=" background pattern" />
     </section>
   );
 }

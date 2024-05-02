@@ -72,7 +72,7 @@ body {
   --max-width: 65em;
   --container-padding: 1rem;
 
-  width: min(var(--max-width), 100% - (var(--container-padding) * 1));
+  width: min(var(--max-width), 100% - (var(--container-padding) * 2));
   margin-inline: auto;
 }
 

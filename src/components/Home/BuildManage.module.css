@@ -3,6 +3,9 @@
   padding: 8em;
   position: relative;
   overflow-x: hidden;
+  background-image: url(/images/bg-pattern-home-3.svg);
+  background-position: bottom 0 right -9%;
+  background-repeat: no-repeat;
 }
 
 .buildManage > div {
@@ -19,8 +22,21 @@
   color: var(--white);
 }
 
-.buildManage > img {
-  position: absolute;
-  bottom: 0;
-  right: -8%;
+@media screen and (max-width: 800px) {
+  .buildManage {
+    padding: 0;
+    padding-top: 3em;
+    text-align: center;
+    background-position: top 0 right -55%;
+  }
+
+  .buildManage h3 {
+    text-align: left;
+    font-size: 2em;
+    width: 70%;
+  }
+
+  .buildManage > div {
+    grid-template-columns: 1fr;
+  }
 }
