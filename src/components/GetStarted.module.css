@@ -16,3 +16,17 @@
   color: var(--green-dark);
   font-size: var(--fs-h2-48);
 }
+
+@media screen and (max-width: 800px) {
+  .getStarted {
+    padding: 4em 1.5em;
+    text-align: center;
+    background-position: bottom -30% left 0;
+  }
+  .getStarted > div {
+    flex-direction: column;
+  }
+  .getStarted h3 {
+    font-size: 2em;
+  }
+}
