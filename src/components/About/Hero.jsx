@@ -1,7 +1,23 @@
+import { useRef } from "react";
 import styles from "./Hero.module.css";
+import { useScroll, useTransform, motion } from "framer-motion";
 function Hero() {
+  const ref = useRef(null);
+
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.33 1"],
+  });
+
+  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
+  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+
   return (
-    <section className={styles.hero}>
+    <motion.section
+      className={styles.hero}
+      ref={ref}
+      style={{ opacity: opacityProgress, scale: scaleProgress }}
+    >
       <div className="container">
         <h1>About</h1>
         <div>
@@ -16,7 +32,7 @@ function Hero() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
