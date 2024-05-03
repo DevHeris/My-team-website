@@ -79,7 +79,7 @@ a.ctaLink:visited {
   font-weight: 600;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .footer {
     padding: 2em 0;
   }

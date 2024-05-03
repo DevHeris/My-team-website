@@ -1,46 +1,62 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import styles from "./Form.module.css";
-import { useScroll, useTransform, motion } from "framer-motion";
 function Form() {
-  const ref = useRef(null);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [cName, setCName] = useState("");
+  const [title, setTitle] = useState("");
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["0 1", "1.33 1"],
-  });
+  const buttonRef = useRef();
 
-  const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
-  const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.5, 1]);
+  function formSubmitHandler(e) {
+    e.preventDefault();
+
+    if (email !== "" && name !== "" && message !== "") {
+      setEmail("");
+      setName("");
+      setMessage("");
+      setTitle("");
+      setCName("");
+    }
+  }
 
   return (
     <form className={styles.form}>
-      <motion.input
+      <input
         type="text"
         placeholder="Name"
-        style={{ opacity: opacityProgress, scale: scaleProgress }}
+        value={name}
+        onChange={(e) => setName(e.target.value)}
       />
-      <motion.input
-        type="text"
+      <input
+        type="email"
         placeholder="Email Address"
-        style={{ opacity: opacityProgress, scale: scaleProgress }}
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
       />
-      <motion.input
+      <input
         type="text"
         placeholder="Company Name"
-        style={{ opacity: opacityProgress, scale: scaleProgress }}
+        value={cName}
+        onChange={(e) => setCName(e.target.value)}
       />
-      <motion.input
+      <input
         type="text"
         placeholder="Title"
         required="This field is required"
-        style={{ opacity: opacityProgress, scale: scaleProgress }}
+        value={title}
+        onChange={(e) => setTitle(e.target.value)}
       />
-      <motion.textarea
+      <textarea
         placeholder="Message"
-        style={{ opacity: opacityProgress, scale: scaleProgress }}
-      ></motion.textarea>
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+      ></textarea>
       <div>
-        <button>submit</button>
+        <button ref={buttonRef} onClick={formSubmitHandler}>
+          submit
+        </button>
       </div>
     </form>
   );

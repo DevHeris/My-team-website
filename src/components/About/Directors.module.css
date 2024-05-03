@@ -28,7 +28,7 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .directorsSection {
     padding: 0;
     padding: 6.5em 0;

@@ -33,13 +33,17 @@ function PageNav() {
           <Logo />
         </li>
         <li>
-          <NavLink to="/home">home</NavLink>
+          <NavLink to="/home" onClick={hideSidebar}>
+            home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">about</NavLink>
+          <NavLink to="/about" onClick={hideSidebar}>
+            about
+          </NavLink>
         </li>
         <li>
-          <ContactBtn />
+          <ContactBtn onClick={hideSidebar} />
         </li>
       </ul>
 

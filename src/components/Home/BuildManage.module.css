@@ -22,7 +22,7 @@
   color: var(--white);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .buildManage {
     padding: 0;
     padding-top: 3em;
